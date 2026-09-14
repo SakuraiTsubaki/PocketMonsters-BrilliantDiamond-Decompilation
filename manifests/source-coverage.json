@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "project": "PocketMonsters-BrilliantDiamond-Decompilation",
+  "baseline": "Japanese release and Japanese official material",
+  "dump_status": "No locally owned retail game dump available",
+  "completion_states": ["Not started", "Enumerating", "Indexed", "Reviewed", "Cross-checked", "Exhausted"],
+  "families": [
+    {"id":"official_jp_bdsp_index","known_anchor":42,"status":"Enumerating"},
+    {"id":"official_jp_off_index","status":"Enumerating"},
+    {"id":"official_jp_product_bonus","status":"Enumerating"},
+    {"id":"official_jp_updates","status":"Indexed"},
+    {"id":"brilliant_diamond_version_differences","status":"Enumerating"},
+    {"id":"official_distributions_mystery_gift","status":"Enumerating"},
+    {"id":"pokemon_home","status":"Enumerating"},
+    {"id":"cross_save_linkage","status":"Enumerating"},
+    {"id":"official_regional_language_sites","status":"Enumerating"},
+    {"id":"opendpr","status":"Enumerating"},
+    {"id":"bdsp_research","status":"Enumerating"},
+    {"id":"pkhex_sav8bs_pb8","status":"Enumerating"},
+    {"id":"evscript_tools","status":"Enumerating"},
+    {"id":"unity_packages_runtime","status":"Not started"},
+    {"id":"il2cpp_metadata_executable","status":"Enumerating"},
+    {"id":"assetbundle_addressables_resources","status":"Not started"},
+    {"id":"field_scene_event_systems","status":"Enumerating"},
+    {"id":"rng_encounters","status":"Enumerating"},
+    {"id":"project_pokemon_bdsp_events","known_anchor":14,"status":"Enumerating"},
+    {"id":"dp_platinum_comparison","status":"Not started"},
+    {"id":"bugs_glitches_patch_fixes","status":"Enumerating"},
+    {"id":"unused_beta_prerelease","status":"Not started"},
+    {"id":"packaging_retail_revisions_identifiers","status":"Not started"},
+    {"id":"archived_deleted_material","status":"Not started"}
+  ]
+}
