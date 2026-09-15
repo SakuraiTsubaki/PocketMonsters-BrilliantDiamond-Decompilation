@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "project": "Pocket Monsters Brilliant Diamond Decompilation",
+  "platform": "Nintendo Switch",
+  "targets": [
+    {
+      "id": "brilliant-diamond-base",
+      "kind": "application",
+      "title_id": "0100000011D90000",
+      "version": "initial retail application",
+      "status": "reference_only",
+      "local_hashes": null,
+      "notes": "Application ID is recorded from an external title database. Promote only after matching local project material."
+    },
+    {
+      "id": "brilliant-diamond-update-1.3.0",
+      "kind": "patch",
+      "title_id": "0100000011D90800",
+      "version": "1.3.0",
+      "release_date_us": "2022-03-15",
+      "status": "reference_only",
+      "local_hashes": null,
+      "notes": "Nintendo documents Ver. 1.3.0 as the latest published BDSP update. Patch ID is recorded from an external title database."
+    }
+  ],
+  "references": [
+    {
+      "type": "official_update_history_us",
+      "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/57058/p/989/c/950"
+    },
+    {
+      "type": "external_title_database_base",
+      "url": "https://tinfoil.io/Title/0100000011D90000"
+    }
+  ]
+}
