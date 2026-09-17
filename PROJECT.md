@@ -23,16 +23,20 @@ Record all available items before substantive reconstruction:
 - legal provenance and distribution constraints for every input;
 - differences from related versions that affect addresses, formats, or behavior.
 
-Store machine-readable identifiers in `config/target.json`. Store restricted inputs outside Git.
+Store machine-readable identifiers in `config/target.json`. Keep the ROM binary outside Git and commit every storable non-ROM result.
 
 ## Initial research priorities
 
 - Fingerprint the exact title/update, executable build IDs, Unity version, and IL2CPP metadata/code pairing.
 - Map native modules, generated metadata, type/method identifiers, runtime interfaces, and version-specific addresses.
 - Document Unity assets, bundles, serialization, compression, text, audio, maps, and scripts from lawful user inputs.
-- Keep keys, firmware, packages, decrypted modules, metadata dumps, and extracted content outside Git.
+- Keep the ROM binary outside Git; commit all storable non-ROM extracted, converted, documented, and verified results.
 - Build deterministic metadata, symbol, asset, and cross-version comparison tools with verified input hashes.
 
 ## First milestone
 
 The foundation milestone is complete when the exact target build is recorded, the initial file/executable map is reproducible, at least one research record has been promoted to an analysis with stated confidence, and all commands needed to repeat that result are documented.
+
+## Non-ROM artifact preservation
+
+Follow [ARTIFACT_POLICY.md](ARTIFACT_POLICY.md). Preserve all storable non-ROM research, source, scripts, tools, logs, manifests, tables, structured data, graphics, sprites, palettes, fonts, icons, tiles, converted data, patches, and verification material. Graphics work must include actual PNG output.
