@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "repository": "SakuraiTsubaki/PocketMonsters-BrilliantDiamond-Decompilation",
+  "target": "Pocket Monsters Brilliant Diamond",
+  "generation": "Generation VIII",
+  "objective": "zero-known-reproducible-unintended-defects",
+  "target_identity_required": true,
+  "allowed_evidence": ["reported", "probable", "confirmed", "not-a-bug"],
+  "allowed_status": ["open", "investigating", "fix-ready", "fixed-unverified", "verified-fixed", "not-a-bug", "duplicate"],
+  "categories": ["crash", "hang", "softlock", "progression", "save-data", "battle-logic", "ai", "data", "script-event", "map-collision", "graphics-ui", "audio", "localization-text", "online-local-communication", "grand-underground", "contest", "ramanas-park", "performance", "resource-lifetime", "update-regression", "other"],
+  "items": []
+}
